@@ -1,0 +1,51 @@
+@import "../variables";
+@import "../mediaQuery";
+
+.covid-banner {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  height: 10em;
+  background: rgba(13,147,242,0.12);
+
+  .covid1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 1em 4em;
+
+    .description {
+    margin-left: -8em;
+  }
+  }
+  .covid2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap:1em;
+    margin: 1em;
+    .statistics {
+      background: $white-color;
+      border-radius: 0.3em;
+    }
+  }
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  gap: 1em;
+  margin: 1em 4em;
+
+  .covid-sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    .covid-title {
+      color: $black-color;
+      font-weight: 600;
+    }
+  }
+
+  .main-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+  }
+}

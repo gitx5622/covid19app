@@ -1,0 +1,15 @@
+@import "../variables";
+@import "../mediaQuery";
+
+.topbar-covid19 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1em;
+  justify-items: center;
+  min-height: 3em;
+  border-bottom: 1px solid $box-shadow-color;
+
+  .covid-logo {
+    font-weight: 700;
+  }
+}

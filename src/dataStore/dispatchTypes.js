@@ -1,0 +1,8 @@
+export const LOADING = 'LOADING';
+export const SUCCESS = 'SUCCESS';
+export const ERROR = 'ERROR';
+export const RESET = 'RESET';
+
+export const GET_COVID_SUMMARY = "GET_COVID_SUMMARY";
+export const GET_COVID_SUMMARY_SUCCESS = "GET_COVID_SUMMARY_SUCCESS";
+export const GET_COVID_SUMMARY_ERROR = "GET_COVID_SUMMARY_ERROR";
